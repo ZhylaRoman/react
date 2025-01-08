@@ -3,155 +3,103 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined
 export const navlink = [
   {
     url: "/",
-    text: "Home",
+    text: "Strona główna", 
   },
   {
     url: "/about",
-    text: "About",
+    text: "O mnie",  
   },
   {
     url: "/services",
-    text: "Services",
-  },
-  {
-    url: "/portfolio",
-    text: "Portfolio",
+    text: "Usługi",  
   },
   {
     url: "/testimonials",
-    text: "Testimonials",
-  },
-  {
-    url: "/blog",
-    text: "Blog",
+    text: "Referencje",  
   },
   {
     url: "/contact",
-    text: "Contact",
+    text: "Kontakt",  
   },
 ]
 export const home = [
   {
-    text: "HELLO I'M",
-    name: "ALAMIN MUSA",
-    post: "WEB DESIGNER",
-    design: "UI / UX DESIGNER",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    text: "WITAM, JESTEM",
+    name: "ROMAN ZHYLA",
+    post: "PROJEKTANT STRON WWW", 
+    design: "PROJEKTANT UI / UX",  
+    desc: "Lorem Ipsum to po prostu przykładowy tekst używany w przemyśle drukarskim i składzie tekstu. Lorem Ipsum jest standardowym tekstem przemysłu od XVI wieku, kiedy to nieznany drukarz wziął skład typograficzny i pomieszał go, aby stworzyć książkę próbki czcionek",
   },
 ]
 export const about = [
   {
     desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
     desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    cover: "./images/man.png",
+    cover: "./images/person.png",
   },
 ]
 export const services = [
   {
     id: 1,
     icon: <Settings />,
-    title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Kreatywny Projekt", 
+    desc: "Lorem Ipsum to po prostu tekst używany w przemyśle drukarskim i składzie tekstu, gdy nieznany drukarz używał tego w przykładzie",
   },
   {
     id: 2,
     icon: <CropRotate />,
-    title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Czysty Kod",  
+    desc: "Lorem Ipsum to po prostu tekst używany w przemyśle drukarskim i składzie tekstu, gdy nieznany drukarz używał tego w przykładzie",
   },
   {
     id: 3,
     icon: <ViewInAr />,
-    title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Responsywny Projekt", 
+    desc: "Lorem Ipsum to po prostu tekst używany w przemyśle drukarskim i składzie tekstu, gdy nieznany drukarz używał tego w przykładzie",
   },
   {
     id: 4,
     icon: <PieChart />,
-    title: "Material UI	",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Material UI", 
+    desc: "Lorem Ipsum to po prostu tekst używany w przemyśle drukarskim i składzie tekstu, gdy nieznany drukarz używał tego w przykładzie",
   },
   {
     id: 5,
     icon: <Code />,
-    title: "Material UI Icons",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Ikony Material UI", 
+    desc: "Lorem Ipsum to po prostu tekst używany w przemyśle drukarskim i składzie tekstu, gdy nieznany drukarz używał tego w przykładzie",
   },
   {
     id: 6,
     icon: <BarChart />,
-    title: "Awesome Support",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Świetne Wsparcie", 
+    desc: "Lorem Ipsum to po prostu tekst używany w przemyśle drukarskim i składzie tekstu, gdy nieznany drukarz używał tego w przykładzie",
   },
 ]
 export const project = [
   {
     id: 1,
     icon: <CloudOutlined />,
-    num: "89",
-    title: "HAPPY CLIENTS",
+    num: "1",
+    title: "ZADOWOLENI KLIENCI",
   },
   {
     id: 2,
     icon: <FavoriteBorder />,
-    num: "231",
-    title: "PROJECTS COMPLEATED",
+    num: "1",
+    title: "ZREALIZOWANE PROJEKTY",
   },
   {
     id: 3,
     icon: <Public />,
-    num: "108",
-    title: "FILES DOWNLOADED",
+    num: "1",
+    title: "POBRANE PLIKI", 
   },
   {
     id: 4,
     icon: <PersonOutlined />,
-    num: "1446",
-    title: "LIENS OF CODE",
-  },
-]
-export const portfolio = [
-  {
-    id: 1,
-    cover: "../images/port/port1.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
-  },
-  {
-    id: 2,
-    cover: "../images/port/port2.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
-  },
-  {
-    id: 3,
-    cover: "../images/port/port3.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
-  },
-  {
-    id: 4,
-    cover: "../images/port/port4.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
-  },
-  {
-    id: 5,
-    cover: "../images/port/port5.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
-  },
-  {
-    id: 6,
-    cover: "../images/port/port6.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
+    num: "1",
+    title: "LINIE KODU",  
   },
 ]
 export const testimonials = [
@@ -159,50 +107,25 @@ export const testimonials = [
     id: 1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-1.png",
-    name: "Alamin Musa",
+    name: "Jan Kowalski",  
     post: "Front End Developer",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-2.png",
-    name: "Alex Ander",
+    name: "Michał Nowak",  
     post: "Back End Developer",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-3.png",
-    name: "GorkCoder",
+    name: "Anna Zielińska",
     post: "React Developer",
   },
 ]
-export const blog = [
-  {
-    id: 1,
-    title: "Master These Awesome",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b1.png",
-  },
-  {
-    id: 2,
-    title: "Best Design Items to Appeal",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b2.png",
-  },
-  {
-    id: 3,
-    title: "The 20 Best Lightroom Presets",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b3.png",
-  },
-]
+
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
